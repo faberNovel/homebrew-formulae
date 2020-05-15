@@ -2,7 +2,7 @@
 class Xctemplate < Formula
   desc "Xcode template manager"
   homepage "https://github.com/gaetanzanella/XCTemplateInstaller"
-  url "https://github.com/gaetanzanella/XCTemplateInstaller.git", :tag => "0.0.3"
+  url "https://github.com/gaetanzanella/XCTemplateInstaller.git", :tag => "0.0.4"
   head "https://github.com/gaetanzanella/XCTemplateInstaller.git", :shallow => false
 
   depends_on "cmake" => :build
