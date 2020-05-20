@@ -1,12 +1,12 @@
 
 class Xctemplate < Formula
   desc "Xcode template manager"
-  homepage "https://github.com/gaetanzanella/XCTemplateInstaller"
-  url "https://github.com/gaetanzanella/XCTemplateInstaller.git", :tag => "0.0.4"
-  head "https://github.com/gaetanzanella/XCTemplateInstaller.git", :shallow => false
+  homepage "https://github.com/faberNovel/xctemplate-cli"
+  url "https://github.com/faberNovel/xctemplate-cli.git", :tag => "0.0.5"
+  head "https://github.com/faberNovel/xctemplate-cli.git", :shallow => false
 
   depends_on "cmake" => :build
-  depends_on :xcode => :build
+  depends_on :xcode => ["11.3", :build]
 
   def install
       system "make", "install", "prefix=#{prefix}"
