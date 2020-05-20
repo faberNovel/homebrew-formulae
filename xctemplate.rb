@@ -6,7 +6,7 @@ class Xctemplate < Formula
   head "https://github.com/faberNovel/xctemplate-cli.git", :shallow => false
 
   depends_on "cmake" => :build
-  depends_on :xcode => ["11.3", :build]
+  depends_on :xcode => ["11.4", :build]
 
   def install
       system "make", "install", "prefix=#{prefix}"
