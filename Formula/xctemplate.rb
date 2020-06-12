@@ -2,7 +2,7 @@
 class Xctemplate < Formula
   desc "Xcode template manager"
   homepage "https://github.com/faberNovel/xctemplate-cli"
-  url "https://github.com/faberNovel/xctemplate-cli.git", :tag => "0.0.5"
+  url "https://github.com/faberNovel/xctemplate-cli.git", :tag => "0.0.6"
   head "https://github.com/faberNovel/xctemplate-cli.git", :shallow => false
 
   depends_on "cmake" => :build
