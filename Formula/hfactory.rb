@@ -5,6 +5,8 @@ class Hfactory < Formula
   tag: "0.4.0",
   version: "0.4.0", :using => :git
 
+  depends_on "fzf"
+
   def install
     system "tar", "-xvf", "release/hfactory.tar.gz"
     bin.install "release/hfactory"
