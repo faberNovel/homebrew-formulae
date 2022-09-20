@@ -2,8 +2,8 @@ class Hfactory < Formula
   desc "A useful cli for factory developers"
   homepage "https://github.com/faberNovel/hfactory-cli"
   url "git@github.com:faberNovel/hfactory-cli.git",
-  tag: "0.5.2",
-  version: "0.5.2", :using => :git
+  tag: "0.5.3",
+  version: "0.5.3", :using => :git
 
   depends_on "fzf"
 
