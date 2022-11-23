@@ -6,6 +6,7 @@ class Hfactory < Formula
   version: "1.3.0", :using => :git
 
   depends_on "fzf"
+  depends_on "bat"
 
   def install
     system "tar", "-xvf", "release/hfactory.tar.gz"
